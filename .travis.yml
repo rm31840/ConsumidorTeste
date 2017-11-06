@@ -3,8 +3,3 @@ script:
  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 jdk:
  - oraclejdk8
- 
- deploy:
-    provider: heroku
-    api_key:
-        secure: 63406563-2169-4d89-8d71-bdc3103d3a7f
